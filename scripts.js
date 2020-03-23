@@ -9,6 +9,7 @@ const colorBox = document.getElementById('cBox')
 document.addEventListener("DOMContentLoaded", function() {
     heightDisplay.innerHTML = heightValue.value + "px"
     widthDisplay.innerHTML = widthValue.value + "px"
+    colorDisplay.innerHTML = colorValue.value
     colorBox.style.backgroundColor = colorValue.value
     colorBox.style.width = widthValue.value + "px"
     colorBox.style.height = heightValue.value + "px"

@@ -14,5 +14,6 @@
     width: 122px;
     height: 66px;
     border: 1px solid black;
+    transition: width 2s, height 2s;
 }
 
